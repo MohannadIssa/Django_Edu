@@ -1,0 +1,18 @@
+from django.shortcuts import get_object_or_404,render
+
+from django.http import HttpResponse
+from .models import Project,Student
+
+
+def home(request):
+    return HttpResponse("Hello, from Communication Engineering")
+        
+
+
+def projects(request):
+    projects = Project.objects.all()
+    return render(request, 'edu/projects.html', {'projects': list(projects)})
+    
+def students(request):
+    students = Student.objects.all()
+    return render(request, 'edu/students.html', {'students': list(students)})

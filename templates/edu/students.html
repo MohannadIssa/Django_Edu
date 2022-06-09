@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}طلاب هندسة الاتصالات{% endblock %}
+
+{% block content %}
+
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">الرقم الجامعي</th>
+      <th scope="col">الاسم</th>
+      <th scope="col">الاسم الأوسط</th>
+      <th scope="col">الكنية</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% for stu in students %}
+    <tr>
+      <th scope="row">{{stu.number}}</th>
+      <td>{{stu.fname}}</td>
+      <td>{{stu.mname}}</td>
+      <td>{{stu.lname}}</td>
+    </tr>
+
+  </tbody>
+  {% endfor %}
+</table>
+{% endblock content %}
+
+
+
+
+
