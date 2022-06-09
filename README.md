@@ -16,5 +16,5 @@ you can consider this project as template to start developing any other project
 
 Online Demo
 
-http://127.0.0.1:9879/edu/projects/
+https://master2022.pythonanywhere.com/edu/projects/
 
