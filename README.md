@@ -15,14 +15,14 @@ Django + Bootstrab + FontAwesome+..
 
 admin panels
 >>Backend
-https://master2022.pythonanywhere.com/admin/
+127.0.0.1:9999/admin/
 
 use supperuser
 
 >>forntend
-https://master2022.pythonanywhere.com/edu/projects/
+127.0.0.1/edu/projects/
 
-https://master2022.pythonanywhere.com/edu/students/
+127.0.0.1/edu/students/
 
 you can consider this project as template to start developing any other project
 
@@ -31,4 +31,6 @@ Online Demo
 
 
 https://master2022.pythonanywhere.com/edu/projects/
+
+https://master2022.pythonanywhere.com/edu/students/
 
