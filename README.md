@@ -19,7 +19,7 @@ admin panels
 
 use supperuser
 
->>forntend
+>>frontend
 127.0.0.1/edu/projects/
 
 127.0.0.1/edu/students/
