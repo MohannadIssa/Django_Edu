@@ -21,11 +21,14 @@ use supperuser
 
 >>forntend
 https://master2022.pythonanywhere.com/edu/projects/
+
 https://master2022.pythonanywhere.com/edu/students/
+
 you can consider this project as template to start developing any other project
 
 
 Online Demo
+
 
 https://master2022.pythonanywhere.com/edu/projects/
 
