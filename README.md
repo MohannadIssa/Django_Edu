@@ -13,6 +13,8 @@ Django + Bootstrab + FontAwesome+..
 
 - runserver >> python manage.py runserver 9999
 
+from sitting.py file you can choose to work with sqlite3 or mysql db.
+
 admin panels
 >>Backend
 127.0.0.1:9999/admin/
